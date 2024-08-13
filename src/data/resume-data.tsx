@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   location: "Chennai, Tamil Nadu, India",
   locationLink: "https://www.google.com/maps/place/Chennai",
   about:
-    "Dedicated engineer with a passion for AI and data science. Experienced in full-stack development and problem-solving.",
+    "Dedicated engineer with a passion for AI and DeepLearning. Experienced in full-stack development and problem-solving.",
   summary:
     "As a Software Engineer, I excel in building AI-driven solutions and web applications. My experience spans various projects, where I have applied my skills in TypeScript, Node.js, React, and more. I am focused on delivering efficient and effective solutions.",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQHRX7qgBELHLA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709238995514?e=1729123200&v=beta&t=kuJOXC92o9OT_WMwsE1n6tKnOfDRRtxENpFh5NSnd88", // Placeholder URL, please replace with your actual avatar URL
@@ -64,24 +64,24 @@ export const RESUME_DATA = {
     {
       company: "Marki",
       link: "https://joinmarki.com",
-      badges: ["Remote"],
+      badges: ["Remote", "USA, CA"],
       title: "Full Stack Developer",
-      logo: ParabolLogo, // Placeholder logo, replace with your company's logo
+      logo: ParabolLogo,
       start: "2023",
       end: "2024",
       description:
-        "Leading the development of meal ordering platform for custom meal preps. Technologies: Next.js, TypeScript, Node.js",
+        "Led development of a meal ordering platform for custom meal preps, utilizing Next.js, TypeScript, and Node.js. Implemented key features to enhance user experience and streamline order processing.",
     },
     {
       company: "MadgenAI",
-      link: "",
-      badges: ["Remote"],
+      link: "https://madgenai.com", // Add the actual URL if available
+      badges: ["Remote", "USA, SF"],
       title: "AI Engineer",
-      logo: ClevertechLogo, // Placeholder logo, replace with your previous company's logo
+      logo: ClevertechLogo,
       start: "2023 Nov",
       end: "2024 Jan",
       description:
-        "Contributed in the development of a specialized AI image and video generation platform, integrating state-of-the-art transformer-based models and diffusion techniques for image and video generation.",
+        "Contributed to the development of a cutting-edge AI image and video generation platform. Integrated state-of-the-art transformer models and diffusion techniques, enhancing the platform's capabilities in creating high-quality, AI-generated visual content.",
     },
   ],
   skills: [
