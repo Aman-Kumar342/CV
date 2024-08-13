@@ -55,7 +55,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Vellore Institute of Technology",
-      degree: "Bachelor's Degree in Computer Science",
+      degree: "Bachelor's Degree in Electronics and Computer Engineering",
       start: "2022",
       end: "2026",
     },
