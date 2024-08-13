@@ -120,7 +120,7 @@ export const RESUME_DATA = {
       logo: ConsultlyLogo, // Replace with appropriate logo
       link: {
         label: "chatcsv.com",
-
+        href: "#", // Add a placeholder href or the actual URL
       },
     },
     {
@@ -135,7 +135,7 @@ export const RESUME_DATA = {
       logo: MonitoLogo, // Replace with appropriate logo
       link: {
         label: "",
-  
+        href: "#", // Add a placeholder href or the actual URL
       },
     },
     {
@@ -164,7 +164,7 @@ export const RESUME_DATA = {
       logo: ParabolLogo, 
       link: {
         label: "github.com/rispectrum/solana-wallet-manager",
-        // href: "https://github.com/rispectrum/solana-wallet-manager", // Replace with actual GitHub link
+        href: "#", // Add a placeholder href or the actual URL
       },
     },
     // {
