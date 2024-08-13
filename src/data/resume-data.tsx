@@ -29,6 +29,7 @@ export const RESUME_DATA = {
   summary:
     "As a Software Engineer, I excel in building AI-driven solutions and web applications. My experience spans various projects, where I have applied my skills in TypeScript, Node.js, React, and more. I am focused on delivering efficient and effective solutions.",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQHRX7qgBELHLA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709238995514?e=1729123200&v=beta&t=kuJOXC92o9OT_WMwsE1n6tKnOfDRRtxENpFh5NSnd88", // Placeholder URL, please replace with your actual avatar URL
+  personalWebsiteUrl: "https://your-personal-website.com", // Add this line
   
   contact: {
     email: "rishabh.vaaiv@gmail.com",
