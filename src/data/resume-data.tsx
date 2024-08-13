@@ -64,7 +64,7 @@ export const RESUME_DATA = {
     {
       company: "Marki",
       link: "https://joinmarki.com",
-      badges: ["Remote", "USA, CA"],
+      badges: ["Remote", "USA, LA"],
       title: "Full Stack Developer",
       logo: ParabolLogo,
       start: "2023",
