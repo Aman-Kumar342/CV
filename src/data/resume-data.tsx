@@ -68,7 +68,7 @@ export const RESUME_DATA = {
       title: "Full Stack Developer",
       logo: ParabolLogo,
       start: "2024 Jan",
-      end: "2024 August",
+      end: "2024 Aug",
       description: [
         "Led development of a meal ordering platform for custom meal preps.",
         "Utilized Next.js, TypeScript, and Node.js.",
