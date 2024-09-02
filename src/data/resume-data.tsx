@@ -25,11 +25,11 @@ export const RESUME_DATA = {
   location: "Chennai, Tamil Nadu, India",
   locationLink: "https://www.google.com/maps/place/Chennai",
   about:
-    "Dedicated engineer with a passion for AI and DeepLearning. Experienced in full-stack development and problem-solving.",
+    "Dedicated engineer with a passion for AI and Deep Learning. Experienced in full-stack development and problem-solving.",
   summary:
     "As a Software Engineer, I excel in building AI-driven solutions and web applications. My experience spans various projects, where I have applied my skills in TypeScript, Node.js, React, and more. I am focused on delivering efficient and effective solutions.",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQHRX7qgBELHLA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709238995514?e=1729123200&v=beta&t=kuJOXC92o9OT_WMwsE1n6tKnOfDRRtxENpFh5NSnd88", // Placeholder URL, please replace with your actual avatar URL
-  personalWebsiteUrl: "https://your-personal-website.com", // Add this line
+  personalWebsiteUrl: "https://rishabh-cv.vercel.app", // Add this line
   
   contact: {
     email: "rishabh.vaaiv@gmail.com",
@@ -67,10 +67,13 @@ export const RESUME_DATA = {
       badges: ["Remote", "USA, LA"],
       title: "Full Stack Developer",
       logo: ParabolLogo,
-      start: "2023",
-      end: "2024",
-      description:
-        "Led development of a meal ordering platform for custom meal preps, utilizing Next.js, TypeScript, and Node.js. Implemented key features to enhance user experience and streamline order processing.",
+      start: "2024 Jan",
+      end: "2024 August",
+      description: [
+        "Led development of a meal ordering platform for custom meal preps.",
+        "Utilized Next.js, TypeScript, and Node.js.",
+        "Implemented key features to enhance user experience and streamline order processing.",
+      ],
     },
     {
       company: "MadgenAI",
@@ -79,8 +82,11 @@ export const RESUME_DATA = {
       logo: ClevertechLogo,
       start: "2023 Nov",
       end: "2024 Jan",
-      description:
-        "Contributed to the development of a cutting-edge AI image and video generation platform. Integrated state-of-the-art transformer models and diffusion techniques, enhancing the platform's capabilities in creating high-quality, AI-generated visual content.",
+      description: [
+        "Contributed to the development of an AI image and video generation platform.",
+        "Integrated transformer models and diffusion techniques.",
+        "Enhanced platform capabilities in creating high-quality, AI-generated visual content.",
+      ],
     },
   ],
   skills: [
@@ -100,10 +106,13 @@ export const RESUME_DATA = {
         "Artificial Intelligence",
         "Database Management System",
       ],
-      description:
-        "Developed an e-commerce product recommendation system using NLP to analyze user queries. Outperformed industry-standard tools and integrated into a chat interface for natural interactions.",
+      description: [
+        "Developed an e-commerce product recommendation system using NLP.",
+        "Outperformed industry-standard tools.",
+        "Integrated into a chat interface for natural interactions.",
+      ],
       logo: ParabolLogo, 
-        link: {
+      link: {
         label: "product-recommendation",
         href: "https://youtu.be/2xox5wsMNNk?feature=shared", 
       },
@@ -115,10 +124,12 @@ export const RESUME_DATA = {
         "Artificial Intelligence",
         "Data Visualization",
       ],
-      description:
-        "Created a SaaS application for data analysis using AI. Users can upload CSV/XLSX files, query data using natural language, and generate interactive charts for visualization.",
+      description: [
+        "Created a SaaS application for data analysis using AI.",
+        "Users can upload CSV/XLSX files, query data using natural language.",
+        "Generate interactive charts for visualization.",
+      ],
       logo: ConsultlyLogo, 
-     
     },
     {
       title: "LawIQ - Legal Chatbot with Real-time Voice Interaction",
@@ -127,10 +138,12 @@ export const RESUME_DATA = {
         "Natural Language Processing",
         "Artificial Intelligence",
       ],
-      description:
-        "Developed an AI-powered legal chatbot offering legal information and advice through an interactive chat interface with real-time voice interaction capabilities.",
+      description: [
+        "Developed an AI-powered legal chatbot.",
+        "Offers legal information and advice through an interactive chat interface.",
+        "Includes real-time voice interaction capabilities.",
+      ],
       logo: MonitoLogo, // Replace with appropriate logo
-      
     },
     {
       title: "VocalGPT: Quick Terminal-Based AI Voice Chat Simulator",
@@ -139,8 +152,10 @@ export const RESUME_DATA = {
         "Large Language Models",
         "Artificial Intelligence",
       ],
-      description:
-        "Built a tool for voice chatting with an AI assistant directly from the terminal. Useful for simulating phone calls, language practice, and interactive AI experiences.",
+      description: [
+        "Built a tool for voice chatting with an AI assistant directly from the terminal.",
+        "Useful for simulating phone calls, language practice, and interactive AI experiences.",
+      ],
       logo: JarockiMeLogo, // Replace with appropriate logo
       link: {
         label: "github.com/rispectrum/vocalgpt",
@@ -153,87 +168,12 @@ export const RESUME_DATA = {
         "Rust",
         "Solana SDK",
       ],
-      description:
-        "Engineered a high-performance Solana wallet management system with parallel processing, robust error handling, and intelligent fund distribution. Achieved 3x efficiency improvement and 99.9% transaction success rate.",
+      description: [
+        "Engineered a high-performance Solana wallet management system.",
+        "Implemented parallel processing and robust error handling.",
+        "Achieved 3x efficiency improvement and 99.9% transaction success rate.",
+      ],
       logo: ParabolLogo, 
-      
     },
-    // {
-    //   title: "Crypto Project - $PARK",
-    //   techStack: [
-    //     "SOLANA SDK",
-    //     "RUST",
-    //   ],
-    //   description:
-    //     "Developed a cryptocurrency project with a focus on decentralization and transparency.",
-    //   logo: ParabolLogo, // Placeholder logo, replace with your project logo
-    //   link: {
-    //     label: "parkcrypto.com",
-    //     href: "https://parkcrypto.com/",
-    //   },
-    // },
-    // {
-    //   title: "YummyPizza",
-    //   techStack: [
-    //     "Full Stack Developer",
-    //     "TypeScript",
-    //     "React",
-    //     "Node.js",
-    //   ],
-    //   description:
-    //     "Designed a database schema and developed a web application for a pizza restaurant.",
-    //   logo: JojoMobileLogo, // Placeholder logo, replace with your project logo
-    //   link: {
-    //     label: "yummypizza.com",
-    //     href: "https://yummypizza.com/",
-    //   },
-    // },
-    // {
-    //   title: "Nutritionist AI",
-    //   techStack: [
-    //     "AI Developer",
-    //     "Python",
-    //     "TypeScript",
-    //     "Node.js",
-    //   ],
-    //   description:
-    //     "Created an AI-based nutritionist that recommends meal plans and health advice.",
-    //   logo: BarepapersLogo, // Placeholder logo, replace with your project logo
-    //   link: {
-    //     label: "nutritionistai.com",
-    //     href: "https://nutritionistai.com/",
-    //   },
-    // },
-    // {
-    //   title: "Blueprint Protocol",
-    //   techStack: [
-    //     "Full Stack Developer",
-    //     "TypeScript",
-    //     "React",
-    //     "Node.js",
-    //   ],
-    //   description:
-    //     "Implemented a meal prep protocol based on Bryan Johnson's Blueprint for health optimization.",
-    //   logo: YearProgressLogo, // Placeholder logo, replace with your project logo
-    //   link: {
-    //     label: "blueprintprotocol.com",
-    //     href: "https://blueprintprotocol.com/",
-    //   },
-    // },
-    // {
-    //   title: "Shortest Path for Food Delivery",
-    //   techStack: [
-    //     "Backend Developer",
-    //     "Python",
-    //     "GraphQL",
-    //   ],
-    //   description:
-    //     "Developed an application to calculate the shortest path for food delivery based on coordinates.",
-    //   logo: MonitoLogo, // Placeholder logo, replace with your project logo
-    //   link: {
-    //     label: "fooddeliverypath.com",
-    //     href: "https://fooddeliverypath.com/",
-    //   },
-     
   ],
 } as const;
