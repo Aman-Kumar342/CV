@@ -181,7 +181,7 @@ export default function Page() {
                 <ProjectCard
                   key={project.title}
                   title={project.title}
-                  description={project.description}
+                  description={project.description.join(" ")}
                   tags={project.techStack}
                   link={"link" in project ? project.link.href : undefined}
                 />
