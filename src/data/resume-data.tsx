@@ -74,7 +74,6 @@ export const RESUME_DATA = {
     },
     {
       company: "MadgenAI",
-      link: "https://madgenai.com", // Add the actual URL if available
       badges: ["Remote", "USA, SF"],
       title: "AI Engineer",
       logo: ClevertechLogo,
@@ -103,8 +102,8 @@ export const RESUME_DATA = {
       ],
       description:
         "Developed an e-commerce product recommendation system using NLP to analyze user queries. Outperformed industry-standard tools and integrated into a chat interface for natural interactions.",
-      logo: ParabolLogo, // Replace with appropriate logo
-      link: {
+      logo: ParabolLogo, 
+        link: {
         label: "product-recommendation",
         href: "https://youtu.be/2xox5wsMNNk?feature=shared", 
       },
@@ -118,11 +117,8 @@ export const RESUME_DATA = {
       ],
       description:
         "Created a SaaS application for data analysis using AI. Users can upload CSV/XLSX files, query data using natural language, and generate interactive charts for visualization.",
-      logo: ConsultlyLogo, // Replace with appropriate logo
-      link: {
-        label: "chatcsv.com",
-        href: "#", // Add a placeholder href or the actual URL
-      },
+      logo: ConsultlyLogo, 
+     
     },
     {
       title: "LawIQ - Legal Chatbot with Real-time Voice Interaction",
@@ -134,10 +130,7 @@ export const RESUME_DATA = {
       description:
         "Developed an AI-powered legal chatbot offering legal information and advice through an interactive chat interface with real-time voice interaction capabilities.",
       logo: MonitoLogo, // Replace with appropriate logo
-      link: {
-        label: "",
-        href: "#", // Add a placeholder href or the actual URL
-      },
+      
     },
     {
       title: "VocalGPT: Quick Terminal-Based AI Voice Chat Simulator",
@@ -163,10 +156,7 @@ export const RESUME_DATA = {
       description:
         "Engineered a high-performance Solana wallet management system with parallel processing, robust error handling, and intelligent fund distribution. Achieved 3x efficiency improvement and 99.9% transaction success rate.",
       logo: ParabolLogo, 
-      link: {
-        label: "github.com/rispectrum/solana-wallet-manager",
-        href: "#", // Add a placeholder href or the actual URL
-      },
+      
     },
     // {
     //   title: "Crypto Project - $PARK",
