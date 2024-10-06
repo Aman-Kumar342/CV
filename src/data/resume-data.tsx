@@ -25,12 +25,12 @@ export const RESUME_DATA = {
   location: "Chennai, Tamil Nadu, India",
   locationLink: "https://www.google.com/maps/place/Chennai",
   about:
-    "Dedicated engineer with a passion for AI and Deep Learning. Experienced in full-stack development and problem-solving.",
+    "Dedicated software engineer with a strong passion for AI, deep learning, and full-stack development. Experienced in solving real-world problems using cutting-edge technology.",
   summary:
-    "As a Software Engineer, I excel in building AI-driven solutions and web applications. My experience spans various projects, where I have applied my skills in TypeScript, Node.js, React, and more. I am focused on delivering efficient and effective solutions.",
-  avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQHRX7qgBELHLA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709238995514?e=1729123200&v=beta&t=kuJOXC92o9OT_WMwsE1n6tKnOfDRRtxENpFh5NSnd88", // Placeholder URL, please replace with your actual avatar URL
-  personalWebsiteUrl: "https://rishabh-cv.vercel.app", 
-  
+    "Experienced in building AI-driven solutions and modern web applications. My expertise lies in developing efficient, scalable platforms using TypeScript, Node.js, React, and more. I focus on delivering impactful solutions that streamline processes and improve user experiences.",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQHRX7qgBELHLA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709238995514?e=1729123200&v=beta&t=kuJOXC92o9OT_WMwsE1n6tKnOfDRRtxENpFh5NSnd88", // Placeholder URL, replace with your actual avatar URL
+  personalWebsiteUrl: "https://rishabh-cv.vercel.app",
+
   contact: {
     email: "rishabh.vaaiv@gmail.com",
     tel: "+91-8881920469", // Replace with your actual contact number
@@ -70,9 +70,9 @@ export const RESUME_DATA = {
       start: "2024 Jan",
       end: "2024 Aug",
       description: [
-        "Led development of a meal ordering platform for custom meal preps.",
-        "Utilized Next.js, TypeScript, and Node.js.",
-        "Implemented key features to enhance user experience and streamline order processing.",
+        "Led the development of a custom meal ordering platform, improving the user experience by streamlining order processing and customizing meal preps.",
+        "Utilized Next.js, TypeScript, and Node.js to create scalable and maintainable solutions.",
+        "Enhanced user engagement by implementing key features that personalized the customer journey.",
       ],
     },
     {
@@ -83,9 +83,9 @@ export const RESUME_DATA = {
       start: "2023 Nov",
       end: "2024 Jan",
       description: [
-        "Contributed to the development of an AI image and video generation platform.",
-        "Integrated transformer models and diffusion techniques.",
-        "Enhanced platform capabilities in creating high-quality, AI-generated visual content.",
+        "Developed AI-powered image and video generation platform, significantly improving the quality and efficiency of content creation.",
+        "Integrated state-of-the-art transformer models and diffusion techniques, pushing the boundaries of generative AI.",
+        "Collaborated with cross-functional teams to optimize the performance of the platform, meeting client expectations.",
       ],
     },
   ],
@@ -97,6 +97,8 @@ export const RESUME_DATA = {
     "Node.js",
     "Python",
     "AI/ML",
+    "React",
+    "JavaScript",
   ],
   projects: [
     {
@@ -107,14 +109,14 @@ export const RESUME_DATA = {
         "Database Management System",
       ],
       description: [
-        "Developed an e-commerce product recommendation system using NLP.",
-        "Outperformed industry-standard tools.",
-        "Integrated into a chat interface for natural interactions.",
+        "Developed a robust e-commerce recommendation system that utilized natural language processing to improve the accuracy of product suggestions.",
+        "Achieved better results compared to industry-standard recommendation tools.",
+        "Integrated the solution into a user-friendly chat interface for seamless natural interactions with customers.",
       ],
-      logo: ParabolLogo, 
+      logo: ParabolLogo,
       link: {
         label: "product-recommendation",
-        href: "https://youtu.be/2xox5wsMNNk?feature=shared", 
+        href: "https://youtu.be/2xox5wsMNNk?feature=shared",
       },
     },
     {
@@ -125,11 +127,11 @@ export const RESUME_DATA = {
         "Data Visualization",
       ],
       description: [
-        "Created a SaaS application for data analysis using AI.",
-        "Users can upload CSV/XLSX files, query data using natural language.",
-        "Generate interactive charts for visualization.",
+        "Built an AI-driven SaaS platform for analyzing CSV/XLSX files using natural language queries.",
+        "Designed a user-friendly interface that allows users to upload files and generate interactive data visualizations.",
+        "Improved decision-making processes by enabling real-time data analysis and insights.",
       ],
-      logo: ConsultlyLogo, 
+      logo: ConsultlyLogo,
     },
     {
       title: "LawIQ - Legal Chatbot with Real-time Voice Interaction",
@@ -139,9 +141,9 @@ export const RESUME_DATA = {
         "Artificial Intelligence",
       ],
       description: [
-        "Developed an AI-powered legal chatbot.",
-        "Offers legal information and advice through an interactive chat interface.",
-        "Includes real-time voice interaction capabilities.",
+        "Created a chatbot for legal assistance that provides real-time voice interaction and detailed legal information.",
+        "Developed the chatbot using NLP to ensure it accurately understands and responds to user queries.",
+        "Improved access to legal knowledge by automating routine queries through an intuitive interface.",
       ],
       logo: MonitoLogo, // Replace with appropriate logo
     },
@@ -153,13 +155,13 @@ export const RESUME_DATA = {
         "Artificial Intelligence",
       ],
       description: [
-        "Built a tool for voice chatting with an AI assistant directly from the terminal.",
-        "Useful for simulating phone calls, language practice, and interactive AI experiences.",
+        "Engineered a terminal-based voice chat simulator that allows users to have real-time conversations with an AI assistant.",
+        "Designed for phone call simulations and language practice, enhancing the user experience in interactive AI sessions.",
       ],
       logo: JarockiMeLogo, // Replace with appropriate logo
       link: {
         label: "github.com/rispectrum/vocalgpt",
-        href: "https://github.com/boxed-dev/Vocal-GPT.git", 
+        href: "https://github.com/boxed-dev/Vocal-GPT.git",
       },
     },
     {
@@ -169,11 +171,24 @@ export const RESUME_DATA = {
         "Solana SDK",
       ],
       description: [
-        "Engineered a high-performance Solana wallet management system.",
-        "Implemented parallel processing and robust error handling.",
-        "Achieved 3x efficiency improvement and 99.9% transaction success rate.",
+        "Developed a high-performance wallet management system for Solana blockchain users, with robust parallel processing features.",
+        "Enhanced system reliability by achieving a 99.9% transaction success rate and improving overall efficiency by 3x.",
       ],
-      logo: ParabolLogo, 
+      logo: ParabolLogo,
+    },
+    {
+      title: "OneTicket - AI-Powered Ticket Booking Chatbot",
+      techStack: ["Natural Language Processing", "AI/ML", "Chatbot Development"],
+      description: [
+        "Developed a natural language processing-based chatbot that allows users to book tickets without complex UI interaction.",
+        "Implemented a QR code system to streamline entry and reduce human intervention.",
+        "<strong>Ranked 8th out of 600 teams in the Smart India Hackathon.</strong>"
+      ],
+      logo: TastyCloudLogo, // Replace with the appropriate logo if available
+      link: {
+        label: "OneTicket",
+        href: "https://oneticket.vercel.app",
+      },
     },
   ],
 } as const;
