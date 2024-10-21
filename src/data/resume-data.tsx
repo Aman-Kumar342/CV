@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "Dedicated software engineer with a strong passion for AI, deep learning, and full-stack development. Experienced in solving real-world problems using cutting-edge technology.",
   summary:
     "Experienced in building AI-driven solutions and modern web applications. My expertise lies in developing efficient, scalable platforms using TypeScript, Node.js, React, and more. I focus on delivering impactful solutions that streamline processes and improve user experiences.",
-  avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQHRX7qgBELHLA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709238995514?e=1729123200&v=beta&t=kuJOXC92o9OT_WMwsE1n6tKnOfDRRtxENpFh5NSnd88", // Placeholder URL, replace with your actual avatar URL
+  avatarUrl: "/rishabh.jpeg", // Updated to use the local image file
   personalWebsiteUrl: "https://rishabh-cv.vercel.app",
 
   contact: {
