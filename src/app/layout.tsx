@@ -8,11 +8,6 @@ import React from "react";
 export const metadata: Metadata = {
   title: "Aman Kumar - CV",
   description: "Personal CV and portfolio of Aman Kumar",
-  icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon.ico',
-    apple: '/apple-touch-icon.png',
-  },
 };
 
 // If loading a variable font, you don't need to specify the font weight
@@ -28,6 +23,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className}>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <body>{children}</body>
       <Analytics />
     </html>
