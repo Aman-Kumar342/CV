@@ -35,32 +35,52 @@ export default function Page() {
                 {RESUME_DATA.location}
               </a>
             </p>
-            <Popover>
-              <PopoverTrigger asChild>
-                <Button className="size-8" variant="outline" size="icon">
-                  Contact Info
-                </Button>
-              </PopoverTrigger>
-              <PopoverContent className="p-4">
-                <div className="flex flex-col gap-y-2">
-                  {RESUME_DATA.contact.email && (
-                    <a href={`mailto:${RESUME_DATA.contact.email}`}>
-                      <MailIcon className="size-4" /> {RESUME_DATA.contact.email}
-                    </a>
-                  )}
-                  {RESUME_DATA.contact.tel && (
-                    <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                      <PhoneIcon className="size-4" /> {RESUME_DATA.contact.tel}
-                    </a>
-                  )}
-                  {RESUME_DATA.contact.social.map((social) => (
-                    <a key={social.name} href={social.url}>
-                      <social.icon className="size-4" /> {social.name}
-                    </a>
-                  ))}
+            <div className="flex flex-wrap gap-x-4 gap-y-3 pt-4">
+              {RESUME_DATA.contact.email && (
+                <div className="group relative">
+                  <a
+                    href={`mailto:${RESUME_DATA.contact.email}`}
+                    className="inline-flex items-center gap-x-2 rounded-lg bg-white px-3 py-2 text-[13px] font-medium text-gray-700 ring-1 ring-gray-200 hover:bg-gray-50 hover:text-gray-900"
+                  >
+                    <MailIcon className="h-4 w-4" />
+                    Email
+                  </a>
+                  <div className="absolute left-0 top-full z-50 mt-2 hidden rounded-md border bg-popover p-2 text-sm text-popover-foreground shadow-md group-hover:block">
+                    {RESUME_DATA.contact.email}
+                  </div>
                 </div>
-              </PopoverContent>
-            </Popover>
+              )}
+              {RESUME_DATA.contact.tel && (
+                <div className="group relative">
+                  <a
+                    href={`tel:${RESUME_DATA.contact.tel}`}
+                    className="inline-flex items-center gap-x-2 rounded-lg bg-white px-3 py-2 text-[13px] font-medium text-gray-700 ring-1 ring-gray-200 hover:bg-gray-50 hover:text-gray-900"
+                  >
+                    <PhoneIcon className="h-4 w-4" />
+                    Phone
+                  </a>
+                  <div className="absolute left-0 top-full z-50 mt-2 hidden rounded-md border bg-popover p-2 text-sm text-popover-foreground shadow-md group-hover:block">
+                    {RESUME_DATA.contact.tel}
+                  </div>
+                </div>
+              )}
+              {RESUME_DATA.contact.social.map((social) => (
+                <div key={social.name} className="group relative">
+                  <a
+                    href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-x-2 rounded-lg bg-white px-3 py-2 text-[13px] font-medium text-gray-700 ring-1 ring-gray-200 hover:bg-gray-50 hover:text-gray-900"
+                  >
+                    <social.icon className="h-4 w-4" />
+                    {social.name}
+                  </a>
+                  <div className="absolute left-0 top-full z-50 mt-2 hidden rounded-md border bg-popover p-2 text-sm text-popover-foreground shadow-md group-hover:block">
+                    {social.url}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
 
           <Avatar className="size-28">
@@ -81,17 +101,8 @@ export default function Page() {
               <Card key={work.company}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      {"link" in work && work.link && (
-                        <a 
-                          className="hover:underline"
-                          href={work.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {work.company}
-                        </a>
-                      )}
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base">
+                      {work.company}
                       <span className="inline-flex gap-x-1">
                         {work.badges.map((badge) => (
                           <Badge
@@ -113,7 +124,7 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs print:text-[10px]">
+                <CardContent className="mt-2 text-pretty font-mono text-sm text-muted-foreground print:text-[12px]">
                   {work.description}
                 </CardContent>
               </Card>
@@ -175,14 +186,22 @@ export default function Page() {
 
       <CommandMenu
         links={[
-          // {
-          //   url: RESUME_DATA.personalWebsiteUrl,
-          //   title: "Personal Website",
-          // },
-          ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
-            url: socialMediaLink.url,
-            title: socialMediaLink.name,
-          })),
+          {
+            url: RESUME_DATA.contact.social.find(s => s.name === "Portfolio")?.url || "",
+            title: "Portfolio",
+          },
+          {
+            url: RESUME_DATA.contact.social.find(s => s.name === "GitHub")?.url || "",
+            title: "GitHub",
+          },
+          {
+            url: RESUME_DATA.contact.social.find(s => s.name === "LinkedIn")?.url || "",
+            title: "LinkedIn",
+          },
+          {
+            url: RESUME_DATA.contact.social.find(s => s.name === "Codolio")?.url || "",
+            title: "Coding Profile",
+          }
         ]}
       />
     </main>

@@ -18,177 +18,233 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GlobeIcon, Code2Icon } from "lucide-react";
 
 export const RESUME_DATA = {
-  name: "Rishabh Kumar",
-  initials: "RK",
-  location: "Chennai, Tamil Nadu, India",
+  name: "Aman Kumar",
+  initials: "AK",
+  location: "Chennai, Tamil Nadu",
   locationLink: "https://www.google.com/maps/place/Chennai",
   about:
-    "Dedicated software engineer with a strong passion for AI, deep learning, and full-stack development. Experienced in solving real-world problems using cutting-edge technology.",
+    "Electronics and Computer Engineering student at VIT with expertise in software development, data analytics, and VLSI design.",
   summary:
-    "Experienced in building AI-driven solutions and modern web applications. My expertise lies in developing efficient, scalable platforms using TypeScript, Node.js, React, and more. I focus on delivering impactful solutions that streamline processes and improve user experiences.",
-  avatarUrl: "/rishabh.jpeg", // Updated to use the local image file
-  personalWebsiteUrl: "https://rishabh-cv.vercel.app",
+    "I am an Electronics and Computer Engineering student at VIT with a strong interest in software development, data analytics, and VLSI design. I have hands-on experience in backend development, full-stack projects, and research on low-power IC design for IoT applications. My projects span across real-time web applications, AI-driven systems, and data-driven insights, showcasing my ability to bridge hardware and software. I enjoy solving problems, building scalable solutions, and constantly exploring new technologies to create meaningful impact.",
+  avatarUrl: "/aman.png", // Profile image
+  personalWebsiteUrl: "https://github.com/Aman-Kumar342",
 
   contact: {
-    email: "rishabh.vaaiv@gmail.com",
-    tel: "+91-8881920469", // Replace with your actual contact number
+    email: "amanx.gitx@gmail.com",
+    tel: "+91-7004877604",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/boxed-dev",
+        url: "https://github.com/Aman-Kumar342",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/its-rishabh/",
+        url: "https://www.linkedin.com/in/aman-kumar-0853b5256",
         icon: LinkedInIcon,
       },
       {
-        name: "X",
-        url: "https://x.com/rispectrum",
-        icon: XIcon,
+        name: "Portfolio",
+        url: "https://codolio.com/profile/AmanSavarnya",
+        icon: GlobeIcon
       },
+      {
+        name: "Codolio",
+        url: "https://codolio.com/profile/AmanSavarnya",
+        icon: Code2Icon
+      }
     ],
   },
   education: [
     {
       school: "Vellore Institute of Technology",
-      degree: "Bachelor's Degree in Electronics and Computer Engineering",
+      degree: "Electronics and Computer Engineering - 8.67/10",
       start: "2022",
-      end: "2026",
+      end: "Present",
+    },
+    {
+      school: "Central Board of Secondary Education",
+      degree: "Senior Secondary - 75.4%",
+      start: "2021",
+      end: "2021",
+    },
+    {
+      school: "Central Board of Secondary Education",
+      degree: "Secondary - 89.8%",
+      start: "2019",
+      end: "2019",
     },
   ],
   work: [
     {
-      company: "Marki",
-      link: "https://joinmarki.com",
-      badges: ["Remote", "USA, LA"],
-      title: "Full Stack Developer",
+      company: "Centre of Nano Electronics and VLSI Design (CNVD), VIT Chennai",
+      badges: ["Research", "Chennai"],
+      title: "Research Intern",
       logo: ParabolLogo,
-      start: "2024 Jan",
-      end: "2024 Aug",
-      description: [
-        "Led the development of a custom meal ordering platform, improving the user experience by streamlining order processing and customizing meal preps.",
-        "Utilized Next.js, TypeScript, and Node.js to create scalable and maintainable solutions.",
-        "Enhanced user engagement by implementing key features that personalized the customer journey.",
-      ],
+      start: "May 2024",
+      end: "Aug 2024",
+      description:
+        "Conducted extensive research on low-power IC design in subthreshold regions, focusing on standard cell libraries for IoT Application. Calculated Current Capacitor Ratio (CCR) for CMOS-based Various gates, optimizing PMOS and NMOS dimensions. Designed and simulated gate layouts to evaluate parameters such as power, propagation delay, and noise margins.",
     },
     {
-      company: "MadgenAI",
-      badges: ["Remote", "USA, SF"],
-      title: "AI Engineer",
+      company: "Black Stone Media",
+      badges: ["Remote", "Freelance"],
+      title: "Backend Development Intern",
       logo: ClevertechLogo,
-      start: "2023 Nov",
-      end: "2024 Jan",
-      description: [
-        "Developed AI-powered image and video generation platform, significantly improving the quality and efficiency of content creation.",
-        "Integrated state-of-the-art transformer models and diffusion techniques, pushing the boundaries of generative AI.",
-        "Collaborated with cross-functional teams to optimize the performance of the platform, meeting client expectations.",
-      ],
+      start: "Nov 2024",
+      end: "Dec 2024",
+      description:
+        "Engineered robust backend solutions using Node.js and Express.js. Developed and deployed RESTful APIs to support dynamic web applications. Integrated third-party APIs, including payment gateways and analytics tools.",
     },
+    {
+      company: "ACM VIT Chennai",
+      badges: ["Leadership"],
+      title: "Treasurer",
+      logo: JarockiMeLogo,
+      start: "Apr 2024",
+      end: "Apr 2025",
+      description:
+        "Managed chapter finances, including budgeting, expense tracking, and allocation of funds. Coordinated with sponsors and stakeholders to secure funding. Ensured transparent financial reporting and compliance with institutional guidelines.",
+    }
   ],
   skills: [
-    "Langchain",
-    "LLAMA Index",
-    "TypeScript",
-    "Next.js",
-    "Node.js",
+    "C",
+    "C++",
+    "Java",
     "Python",
-    "AI/ML",
-    "React",
+    "SQL",
     "JavaScript",
+    "PHP",
+    "React",
+    "Node.js",
+    "Next.js",
+    "Express.js",
+    "MongoDB",
+    "FastAPI",
+    "Matplotlib",
+    "Git",
+    "AWS",
+    "Google Cloud Platform",
+    "Excel",
+    "Tableau"
   ],
   projects: [
     {
-      title: "AI-Powered Product Recommendation System",
+      title: "AttendEase – Smart Library Management System",
       techStack: [
-        "Natural Language Processing",
-        "Artificial Intelligence",
-        "Database Management System",
+        "Node.js",
+        "MongoDB",
+        "JWT",
+        "Full Stack"
       ],
       description: [
-        "Developed a robust e-commerce recommendation system that utilized natural language processing to improve the accuracy of product suggestions.",
-        "Achieved better results compared to industry-standard recommendation tools.",
-        "Integrated the solution into a user-friendly chat interface for seamless natural interactions with customers.",
+        "Developed a full-stack library seat booking and attendance management system with real-time analytics and QR code check-in/out",
+        "Implemented Node.js, MongoDB, and JWT for backend logic, authentication, and secure data flow",
+        "Features include dynamic seat reservation, time-slot based booking with conflict detection, QR-based attendance, and admin dashboard",
+        "Added intelligent analytics: peak hour usage, occupancy tracking, and weekly/monthly utilization reports"
       ],
       logo: ParabolLogo,
       link: {
-        label: "product-recommendation",
-        href: "https://youtu.be/2xox5wsMNNk?feature=shared",
-      },
+        label: "github.com/Aman-Kumar342/Attend_Ease",
+        href: "https://github.com/Aman-Kumar342/Attend_Ease"
+      }
     },
     {
-      title: "ChatCSV: AI-powered Data Analysis Platform (SaaS)",
+      title: "OneTicket",
       techStack: [
-        "Full Stack Development",
-        "Artificial Intelligence",
-        "Data Visualization",
+        "LangChain",
+        "Next.js",
+        "VercelAI SDK"
       ],
       description: [
-        "Built an AI-driven SaaS platform for analyzing CSV/XLSX files using natural language queries.",
-        "Designed a user-friendly interface that allows users to upload files and generate interactive data visualizations.",
-        "Improved decision-making processes by enabling real-time data analysis and insights.",
+        "Developed a multi-agent system to simplify museum ticket booking by enabling natural language input",
+        "Ranked top 10 out of 600 participating teams in the Internal Smart India Hackathon",
+        "Implemented with LangChain, Next.js, and the VercelAI SDK"
       ],
       logo: ConsultlyLogo,
     },
     {
-      title: "LawIQ - Legal Chatbot with Real-time Voice Interaction",
+      title: "E-Commerce Profitability Analysis",
       techStack: [
-        "NextJs",
-        "Natural Language Processing",
-        "Artificial Intelligence",
+        "SQL",
+        "Python",
+        "Pandas",
+        "NumPy"
       ],
       description: [
-        "Created a chatbot for legal assistance that provides real-time voice interaction and detailed legal information.",
-        "Developed the chatbot using NLP to ensure it accurately understands and responds to user queries.",
-        "Improved access to legal knowledge by automating routine queries through an intuitive interface.",
+        "Analyzed product data (pricing, revenue, ratings, reviews) to identify key profitability drivers for an online sports retailer",
+        "Used SQL and Python (Pandas, NumPy) for data cleaning, pricing analysis, and performance evaluation",
+        "Provided insights on price labeling, discount optimization, and sales strategy"
       ],
-      logo: MonitoLogo, // Replace with appropriate logo
+      logo: MonitoLogo,
+      link: {
+        label: "github.com/Aman-Kumar342/E-Commerce-Profitability",
+        href: "https://github.com/Aman-Kumar342/5.-Maximizing-E-Commerce-Profitability-for-Sports-Retailers"
+      },
     },
     {
-      title: "VocalGPT: Quick Terminal-Based AI Voice Chat Simulator",
+      title: "CollabEditor — With Realtime Notifications",
+      techStack: [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "TypeScript",
+        "Clerk",
+        "Sentry"
+      ],
+      description: [
+        "Built a modern collaborative document editor supporting real-time editing, live notifications, comments, and user presence",
+        "Integrated authentication (Clerk), error monitoring (Sentry), and rich text editing (Lexical, JSM Editor)",
+        "Utilized Technologies: Next.js, React, Tailwind CSS, Liveblocks, Clerk, Sentry, TypeScript"
+      ],
+      logo: JarockiMeLogo,
+      link: {
+        label: "github.com/Aman-Kumar342/CollabEditor",
+        href: "https://github.com/Aman-Kumar342/CollabEditor---With-realtime-notif"
+      },
+    },
+    {
+      title: "Multi-Modal Behavioral Analysis",
       techStack: [
         "Python",
-        "Large Language Models",
-        "Artificial Intelligence",
+        "OpenCV",
+        "Keras",
+        "MediaPipe",
+        "C++",
+        "Arduino"
       ],
       description: [
-        "Engineered a terminal-based voice chat simulator that allows users to have real-time conversations with an AI assistant.",
-        "Designed for phone call simulations and language practice, enhancing the user experience in interactive AI sessions.",
-      ],
-      logo: JarockiMeLogo, // Replace with appropriate logo
-      link: {
-        label: "github.com/rispectrum/vocalgpt",
-        href: "https://github.com/boxed-dev/Vocal-GPT.git",
-      },
-    },
-    {
-      title: "Solana Multi-Wallet Manager",
-      techStack: [
-        "Rust",
-        "Solana SDK",
-      ],
-      description: [
-        "Developed a high-performance wallet management system for Solana blockchain users, with robust parallel processing features.",
-        "Enhanced system reliability by achieving a 99.9% transaction success rate and improving overall efficiency by 3x.",
+        "Developed a holistic system to identify behavioral indicators of distress by integrating three real-time modules",
+        "Engineered the solution using Python (Keras, OpenCV, MediaPipe) for computer vision and machine learning",
+        "Correlated disparate data streams to create a comprehensive, non-invasive overview for potential early detection"
       ],
       logo: ParabolLogo,
-    },
-    {
-      title: "OneTicket - AI-Powered Ticket Booking Chatbot",
-      techStack: ["Natural Language Processing", "AI/ML", "Chatbot Development"],
-      description: [
-        "Developed a natural language processing-based chatbot that allows users to book tickets without complex UI interaction.",
-        "Implemented a QR code system to streamline entry and reduce human intervention.",
-        "<strong>Ranked 8th out of 600 teams in the Smart India Hackathon.</strong>"
-      ],
-      logo: TastyCloudLogo, // Replace with the appropriate logo if available
       link: {
-        label: "OneTicket",
-        href: "https://oneticket.vercel.app",
+        label: "github.com/Aman-Kumar342/Comprehensive-Human-State-Analysis",
+        href: "https://github.com/Aman-Kumar342/Comprehensive-Human-State-Analysis"
       },
     },
+    {
+      title: "Resource Allocation in Cloud Computing",
+      techStack: [
+        "Game Theory",
+        "Python",
+        "Cloud Computing",
+        "Optimization"
+      ],
+      description: [
+        "Developed an innovative resource allocation system for cloud computing using game theory principles",
+        "Implemented a Nash equilibrium-based algorithm to optimize resource distribution among multiple cloud users",
+        "Achieved improved resource utilization and fair allocation through mathematical modeling and simulation"
+      ],
+      logo: TastyCloudLogo,
+      link: {
+        label: "github.com/Aman-Kumar342/Resource-Allocation",
+        href: "https://github.com/Aman-Kumar342/Resource-Allocation"
+      },
+    }
   ],
 } as const;
