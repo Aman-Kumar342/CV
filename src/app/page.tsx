@@ -1,21 +1,20 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+"use client";
+
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
-import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ProjectCategorySwitcher } from "@/components/project-category-switcher";
+import { useState } from "react";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover"; // Import Popover components
 
-export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
-  description: RESUME_DATA.summary,
-};
-
 export default function Page() {
+  const [activeCategory, setActiveCategory] = useState("software");
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
       <section className="mx-auto w-full max-w-3xl space-y-8 bg-white print:space-y-4">
@@ -168,18 +167,26 @@ export default function Page() {
 
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
-            {RESUME_DATA.projects.map((project) => {
-              return (
-                <ProjectCard
-                  key={project.title}
-                  title={project.title}
-                  description={project.description as unknown as string[]}
-                  tags={project.techStack}
-                  link={"link" in project ? project.link.href : undefined}
-                />
-              );
-            })}
+          <div className="mt-4">
+            <ProjectCategorySwitcher
+              activeCategory={activeCategory}
+              onCategoryChange={setActiveCategory}
+            />
+            <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+              {RESUME_DATA.projects
+                .filter((project) => project.category === activeCategory)
+                .map((project) => {
+                  return (
+                    <ProjectCard
+                      key={project.title}
+                      title={project.title}
+                      description={project.description as unknown as string[]}
+                      tags={project.techStack}
+                      link={"link" in project ? project.link.href : undefined}
+                    />
+                  );
+                })}
+            </div>
           </div>
         </Section>
       </section>

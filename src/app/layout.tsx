@@ -5,10 +5,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import React from "react";
 
-export const metadata: Metadata = {
-  title: "Aman Kumar - CV",
-  description: "Personal CV and portfolio of Aman Kumar",
-};
+export { metadata } from './metadata';
 
 // If loading a variable font, you don't need to specify the font weight
 const inter = Inter({

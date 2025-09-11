@@ -134,6 +134,7 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "AttendEase – Smart Library Management System",
+      category: "software",
       techStack: [
         "Node.js",
         "MongoDB",
@@ -154,6 +155,7 @@ export const RESUME_DATA = {
     },
     {
       title: "OneTicket",
+      category: "software",
       techStack: [
         "LangChain",
         "Next.js",
@@ -168,6 +170,7 @@ export const RESUME_DATA = {
     },
     {
       title: "E-Commerce Profitability Analysis",
+      category: "software",
       techStack: [
         "SQL",
         "Python",
@@ -187,6 +190,7 @@ export const RESUME_DATA = {
     },
     {
       title: "CollabEditor — With Realtime Notifications",
+      category: "software",
       techStack: [
         "Next.js",
         "React",
@@ -208,6 +212,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Multi-Modal Behavioral Analysis",
+      category: "electronics",
       techStack: [
         "Python",
         "OpenCV",
@@ -229,6 +234,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Resource Allocation in Cloud Computing",
+      category: "software",
       techStack: [
         "Game Theory",
         "Python",
@@ -245,6 +251,40 @@ export const RESUME_DATA = {
         label: "github.com/Aman-Kumar342/Resource-Allocation",
         href: "https://github.com/Aman-Kumar342/Resource-Allocation"
       },
+    },
+    {
+      title: "Low Power VLSI Design for IoT Applications",
+      category: "electronics",
+      techStack: [
+        "VLSI",
+        "Cadence",
+        "Circuit Design",
+        "Verilog",
+        "Power Analysis"
+      ],
+      description: [
+        "Designed and optimized low-power digital circuits for IoT applications",
+        "Implemented power-efficient standard cell libraries using subthreshold operation",
+        "Achieved significant power reduction while maintaining acceptable performance metrics"
+      ],
+      logo: ParabolLogo,
+    },
+    {
+      title: "Smart Energy Monitoring System",
+      category: "electronics",
+      techStack: [
+        "Arduino",
+        "IoT",
+        "PCB Design",
+        "Sensors",
+        "Energy Management"
+      ],
+      description: [
+        "Developed a real-time energy monitoring system for residential applications",
+        "Designed custom PCB for power measurement and data acquisition",
+        "Implemented wireless communication for remote monitoring and control"
+      ],
+      logo: EvercastLogo,
     }
   ],
 } as const;
