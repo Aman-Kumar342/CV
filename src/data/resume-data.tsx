@@ -28,7 +28,7 @@ export const RESUME_DATA = {
   about:
     "Electronics and Computer Engineering student at VIT with expertise in software development, data analytics, and VLSI design.",
   summary:
-    "I am an Electronics and Computer Engineering student at VIT with a strong interest in software development, data analytics, and VLSI design. I have hands-on experience in backend development, full-stack projects, and research on low-power IC design for IoT applications. My projects span across real-time web applications, AI-driven systems, and data-driven insights, showcasing my ability to bridge hardware and software. I enjoy solving problems, building scalable solutions, and constantly exploring new technologies to create meaningful impact.",
+    "I am an Electronics and Computer Engineering student at VIT with a strong interest in software development, data analytics, and VLSI design. I have hands-on experience in backend development, full-stack projects, and research on low-power IC design for IoT applications. My projects span across real-time web applications, AI-driven systems, and data-driven insights, showcasing my ability to bridge hardware and software.\n\nAlongside academics, I have demonstrated excellence in competitive exams and problem-solving:\n\nSecured position in the Top 1% of candidates in the National Defence Academy Examination 2021 (UPSC)\n\nRanked among the Top 10% qualifiers of the JEE Advanced 2022\n\nQualified Round 1 & Round 2 of the Dark Pattern Buster Hackathon 2024, conducted by the Ministry of Consumer Affairs\n\nSolved 450+ medium-to-hard coding problems focused on DSA, algorithms, and system design across platforms\n\nI enjoy solving problems, building scalable solutions, and constantly exploring new technologies to create meaningful impact.",
   avatarUrl: "/aman.png", // Profile image
   personalWebsiteUrl: "https://github.com/Aman-Kumar342",
 
@@ -48,7 +48,7 @@ export const RESUME_DATA = {
       },
       {
         name: "Portfolio",
-        url: "https://codolio.com/profile/AmanSavarnya",
+        url: "www.iamaman.me",
         icon: GlobeIcon
       },
       {
@@ -68,14 +68,14 @@ export const RESUME_DATA = {
     {
       school: "Central Board of Secondary Education",
       degree: "Senior Secondary - 75.4%",
-      start: "2021",
+      start: "2019",
       end: "2021",
     },
     {
       school: "Central Board of Secondary Education",
       degree: "Secondary - 89.8%",
       start: "2019",
-      end: "2019",
+      // end: "2019",
     },
   ],
   work: [
@@ -253,6 +253,28 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Gmail-n-Calendar Bot",
+      category: "software",
+      techStack: [
+        "Node.js",
+        "TypeScript",
+        "Google APIs",
+        "Mastra Framework",
+        "Telegram Bot API"
+      ],
+      description: [
+        "Built a Telegram bot to manage Gmail and Google Calendar through chat interface",
+        "Implemented email management (read, send, search) and integrated calendar control (list, create, update events)",
+        "Designed an intelligent Email coordination agent to automatically schedule meetings from requests found in emails",
+        "Developed using the Mastra framework, Google API libraries, Node.js, and TypeScript in a multi-agent architecture"
+      ],
+      logo: ConsultlyLogo,
+      link: {
+        label: "github.com/Aman-Kumar342/gmail-X-telegram-bot",
+        href: "https://github.com/Aman-Kumar342/gmail-X-telegram-bot.git"
+      }
+    },
+    {
       title: "Low Power VLSI Design for IoT Applications",
       category: "electronics",
       techStack: [
@@ -285,6 +307,48 @@ export const RESUME_DATA = {
         "Implemented wireless communication for remote monitoring and control"
       ],
       logo: EvercastLogo,
+    },
+    {
+      title: "IC565 Phase Locked Loop (PLL) Implementation",
+      category: "electronics",
+      techStack: [
+        "LTspice",
+        "Hardware Design",
+        "Analog Electronics",
+        "Circuit Simulation",
+        "Signal Processing"
+      ],
+      description: [
+        "Implemented IC565 PLL-based clock synchronization circuit, a feedback control system for phase matching between local and input signals",
+        "Conducted both software simulation using LTspice and physical hardware implementation of the PLL circuit",
+        "Collaborated in a team to design and validate the complete PLL system for frequency synchronization applications"
+      ],
+      logo: BimLogo,
+      link: {
+        label: "Project Documentation",
+        href: "https://lnkd.in/g8YNMZyu"
+      }
+    },
+    {
+      title: "Static Noise Margin and Power Dissipation in SRAM Cells",
+      category: "electronics",
+      techStack: [
+        "Cadence Virtuoso",
+        "180nm CMOS",
+        "SRAM Design",
+        "Circuit Simulation",
+        "Power Analysis"
+      ],
+      description: [
+        "Designed and simulated 6T and 8T SRAM cells in Cadence Virtuoso using 180nm CMOS technology",
+        "Performed DC simulations to compute Hold, Read, and Write margins via butterfly curves",
+        "Analyzed static and dynamic power dissipation, showing improved stability and reduced power consumption in 8T SRAM due to decoupled read port"
+      ],
+      logo: NSNLogo,
+      link: {
+        label: "View on LinkedIn",
+        href: "https://linkedin.com/posts/aman-kumar-0853b5256_sram-snm-for-hold-read-and-write-activity-7186090786617200641-2vNq"
+      }
     }
   ],
 } as const;

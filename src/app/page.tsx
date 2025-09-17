@@ -1,17 +1,17 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 "use client";
 
+import { useState } from "react";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { ProjectCategorySwitcher } from "@/components/project-category-switcher";
-import { useState } from "react";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
-import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover"; // Import Popover components
+import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover";
 
 export default function Page() {
   const [activeCategory, setActiveCategory] = useState("software");
