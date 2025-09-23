@@ -141,7 +141,7 @@ export default function Page() {
                       {education.school}
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
-                      {education.start} - {education.end}
+                      {education.start} - {"end" in education ? education.end : education.start}
                     </div>
                   </div>
                 </CardHeader>
