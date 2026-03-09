@@ -275,6 +275,72 @@ export const RESUME_DATA = {
       }
     },
     {
+      title: "Shopify Scrapper – Mobile App",
+      category: "software",
+      techStack: [
+        "Expo",
+        "React Native",
+        "Fastify",
+        "TypeScript",
+        "Supabase"
+      ],
+      description: [
+        "Built a production-ready monorepo with a Fastify/TypeScript backend and Expo React Native frontend for Shopify store data extraction",
+        "Implemented user authentication, credit-based purchasing, and structured CSV result downloads",
+        "Integrated Supabase for auth and data management with environment-based configuration for local and production",
+        "Added CORS, rate limiting, and secure API routes for authentication, scraping, and payment flows"
+      ],
+      logo: MobileVikingsLogo,
+      link: {
+        label: "github.com/Aman-Kumar342/shopify-scrapper-mobile-app",
+        href: "https://github.com/Aman-Kumar342/shopify-scrapper-mobile-app"
+      }
+    },
+    {
+      title: "FreshOut – AI Shopping Assistant",
+      category: "software",
+      techStack: [
+        "Next.js",
+        "React",
+        "IndexedDB",
+        "LLM Integration"
+      ],
+      description: [
+        "Built an interactive e-commerce platform enabling natural language commands for browsing, cart management, and navigation",
+        "Implemented a context-aware shopping assistant that understands current page, cart contents, and hover interactions",
+        "Engineered cross-tab synchronization and persistent sessions using IndexedDB and localStorage events",
+        "Designed point-and-talk interaction where the assistant recognizes which product the user is viewing"
+      ],
+      logo: Howdy,
+      link: {
+        label: "github.com/Aman-Kumar342/freshout",
+        href: "https://github.com/Aman-Kumar342/freshout"
+      }
+    },
+    {
+      title: "File Sharing API – Secure Backend Service",
+      category: "software",
+      techStack: [
+        "Express",
+        "PostgreSQL",
+        "Amazon S3",
+        "Redis",
+        "JWT",
+        "Docker"
+      ],
+      description: [
+        "Developed a scalable backend service for secure file management with Express, PostgreSQL, Amazon S3, and Redis",
+        "Implemented JWT-based authentication with HTTP-only cookies and secure file upload/retrieval via presigned S3 URLs",
+        "Added Redis caching for file listings and search results to reduce database load and improve performance",
+        "Containerized all services with Docker for independent deployment and scalability"
+      ],
+      logo: CDGOLogo,
+      link: {
+        label: "github.com/Aman-Kumar342/File-sharing-API",
+        href: "https://github.com/Aman-Kumar342/File-sharing-API"
+      }
+    },
+    {
       title: "Low Power VLSI Design for IoT Applications",
       category: "electronics",
       techStack: [
